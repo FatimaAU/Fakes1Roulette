@@ -10,7 +10,7 @@ namespace RouletteGame.Test.Unit
 {
     [TestFixture]
     [Author("Troels Jensen")]
-    public class RouletteGameTestUnit
+    public class RouletteGameUnitTests
     {
         private RouletteGame _uut;
 
