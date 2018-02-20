@@ -8,18 +8,16 @@ using RouletteGame;
 
 namespace RouletteGame.Test.Unit
 {
+    [TestFixture]
+    [Author("Troels Jensen")]
     public class RouletteGameTestUnit
     {
-        [TestFixture]
-            [Author("Troels Jensen")]
-        public class CalculatorUnitTests
-        {
-            private RouletteGame _uut;
+        private RouletteGame _uut;
 
             [SetUp]
             public void Setup()
             {
-                _uut = new Calculator();
+                _uut = new RouletteGame();
             }
-        }
+    }  
 }
